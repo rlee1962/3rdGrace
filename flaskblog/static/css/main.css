@@ -1,6 +1,11 @@
-
-h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, sans-serif !important;
+    color: #ab8d3fc9;
 }
 
 .bg-steel {
@@ -28,7 +33,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 3rem auto;
 }
 
-h2 > a, .article-title, h2 > .article-title {
+h2>a,
+.article-title,
+h2>.article-title {
     font-family: Montserrat, sans-serif !important;
     font-width: 200;
     color: #AB8D3F;
@@ -55,7 +62,7 @@ a.article-title:hover {
 
 .article-metadata {
     padding-bottom: 0px;
-    margin-bottom: -8px;
+    margin-bottom: 0px;
     border-bottom: 1px dotted #ab8d3f;
 }
 
@@ -112,12 +119,15 @@ a.article-title:hover {
     max-width: 75%;
     margin: 0em auto;
 }
+
 .foot-spacer {
     height: 20px;
     width: 100%;
     margin: 0 auto 5em;
 }
-#blog .mr-2, .mx-2 {
+
+#blog .mr-2,
+.mx-2 {
     margin-right: 3.5rem !important;
     font-weight: 500;
     letter-spacing: 0.3px;
@@ -173,4 +183,46 @@ a.article-title:hover {
     border-width: 2px;
     margin-right: 5px;
     margin-left: 5px;
+}
+.scrollable-container {
+    /* height: 70vh; */
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* For Webkit browsers (e.g., Chrome, Safari) */
+  .scrollable-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  /* For Firefox */
+  .scrollable-container {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  .scrollable-container scrollbar {
+    background-color: transparent;
+  }
+  .btn-secondary {
+    color: #fff;
+    background-color: #1b1e21;
+    border-color: #ab8d3f;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #4e1a1f;
+    border-color: #84353d;
+}
+iframe.cke_wysiwyg_frame.cke_reset {
+    height: 50vh !important;
 }

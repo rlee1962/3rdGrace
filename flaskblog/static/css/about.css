@@ -1,74 +1,70 @@
 .centered-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%
 }
 
 #about h5 {
-    font-family: Montserrat, sans-serif !important;
-    color: #AB8D3F;
-    font-weight: 500;
-    margin-bottom: 5px;
+	font-family: Montserrat, sans-serif !important;
+	color: #ab8d3f;
+	font-weight: 500;
+	margin-bottom: 5px
 }
 
 #about .u-clearfix {
-    font-family: Montserrat, sans-serif !important;
-    color: #ccc;
-    font-weight: 400;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-bottom: 5px;
+	font-family: Montserrat, sans-serif !important;
+	color: #ccc;
+	font-weight: 400;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 5px
 }
 
 .gold-text {
-    font-family: Montserrat, sans-serif !important;
-    color: #AB8D3F;
-    font-weight: 300;
-    text-align: center;
+	font-family: Montserrat, sans-serif !important;
+	color: #ab8d3f;
+	font-weight: 300;
+	text-align: center
 }
 
 .border-bottom {
-    font-width: 600;
-    font-size: 1.1em;
-    border-bottom: 1px dotted #AB8D3F !important;
-    padding-left: 5px;
-}
-
-#login {
-    /*height: 100vh;*/
+	font-width: 600;
+	font-size: 1.1em;
+	border-bottom: 1px dotted #ab8d3f !important;
+	padding-left: 5px
 }
 
 #post .content-section,
 #account .content-section,
 #register .content-section,
 #login .content-section {
-    font-family: Montserrat, sans-serif !important;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #AB8D3F;
+	font-family: Montserrat, sans-serif !important;
+	/* height: 100vh; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ab8d3f
 }
 
 .border-top {
-    border-top: 1px dotted #AB8D3F !important;
+	border-top: 1px dotted #ab8d3f !important
 }
 
 .text-muted {
-    color: #6c757d !important;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1 e;
-    margin-bottom: 1em;
+	color: #6c757d !important;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1 e;
+	margin-bottom: 1em
 }
 
 p.text-secondary {
-    display: contents;
-    font-size: small;
+	display: contents;
+	font-size: small
 }
 
 .form-control {
-    background-color: #cacaca;
+	background-color: #cacaca
 }
