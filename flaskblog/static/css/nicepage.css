@@ -10984,9 +10984,9 @@ section.u-image:not(.u-hover-box),
     }
 
     .u-xl-mode .u-layout-row>.u-size-33-xl {
-        flex: 0 0 55%;
-        max-width: 55%;
-        min-width: 55%;
+        flex: 0 0 46%;
+        /* max-width: 55%; */
+        /* min-width: 55%; */
     }
 
     .u-xl-mode .u-layout-col>.u-size-33-xl {
