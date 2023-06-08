@@ -18448,6 +18448,11 @@ div.u-video,
 }
 
 .u-nav-item {
+    font-family: sans-serif;
+    font-size: 0.81em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     display: inline-block;
     position: relative;
     vertical-align: middle;
@@ -45980,6 +45985,7 @@ a.u-button-style.u-button-style.active>.u-text-active-palette-3-base[class*="u-b
 .u-popupmenu-items.u-text-hover-palette-3-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-3-base .u-nav-link.active {
     color: #ab8d3f !important;
+    text-shadow: 3px 1px 1px #00000090;
 }
 
 .u-text-palette-3-base .u-svg-link,
